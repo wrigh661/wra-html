@@ -1,6 +1,6 @@
 body {
-    background-color: #EEE;
-    font-family: 'Sarabun',Helvetica, Arial, sans-serif;
+    background-color: #c1c8e4;
+    font-family: Verdana;
 }
 
 a {
@@ -14,27 +14,28 @@ h1, h2, h3  {
 }
 
 #container {
-    background-color: white;
+    background-color: #c1c8f9;
     width: 1000px;
     margin-left: auto;
     margin-right:auto;
 }
 
 #header {
-    background-color: #18453B;
-    color: white;
+    background-color: #84ceeb;
+    color: black;
     text-align: center;
     padding: 10px;
 }
 
 #content {
   padding: 10px;
+  color: black;
 }
 
 #nav {
   width: 150px;
   float: left;
-  padding: 20px;
+  padding: 10px;
 }
 
 #nav ul {
@@ -47,10 +48,37 @@ h1, h2, h3  {
   font-weight: bold;
 }
 
+#nav a{
+  color: #5860e9;
+}
+
+#nav a:hover {
+  color: #8860D0;
+  text-decoration: underline;
+}
+
 #main {
   width: 750px;
   float: right;
+  color: black;
+}
 
+#main a {
+  color: #8860D0;
+}
+
+#main a:hover {
+  color: #5ab9ea;
+}
+
+#main table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+#main table, th, td {
+  border: 1px solid black;
+  text-align: center;
 }
 
 #student-group {
@@ -58,25 +86,66 @@ h1, h2, h3  {
   margin: 20px;
   border: 20px;
   padding: 10px;
-  background-color:  #d3d3d3;
+  background-color:  #c1c8f9;
   color: black;
   text-align: left;
+}
+
+#student-group a {
+  color: black;
+}
+
+#student-group a:hover {
+  color: #5ab9ea;
+}
+
+#student-group ul {
+  list-style-type: none;
+}
+
+#student-group .student-group-name {
+  font-weight: bold;
+  color: #5860e9;
 }
 
 #footer {
   clear: both;
   padding: 10px;
-  background-color: #97a2a2;
+  background-color: #5ab9ea;
   color: white;
   text-align: right;
 }
 .schedule-date {
-  font-weight: bold;
   color: black;
   text-align: right;
+  padding-right: 20px;
+  border-bottom: 1px solid black;
 }
+
+.schedul-date h3 {
+  font-weight: bold;
+}
+
 .schedule-resources {
   font-weight: lighter;
   color: black;
   text-align: left;
+  border-bottom: 1px solid black;
+}
+
+.aboutLink {
+  border-bottom: 1px solid black;
+}
+
+.helpLink {
+  text-align: center;
+  font-weight: bold;
+}
+
+.wrapper a {
+  color: #8860D0;
+}
+
+.wrapper a:hover {
+  color: #5ab9ea;
 }
