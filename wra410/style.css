@@ -27,6 +27,13 @@ h1, h2, h3  {
     padding: 10px;
 }
 
+#header img {
+  border-radius: 100%;
+  float: left;
+  height: 50px;
+  width: 50px;
+}
+
 #content {
   padding: 10px;
   color: black;
@@ -100,7 +107,8 @@ h1, h2, h3  {
 }
 
 #student-group ul {
-  list-style-type: none;
+  list-style-type: block;
+
 }
 
 #student-group .student-group-name {
@@ -115,6 +123,11 @@ h1, h2, h3  {
   color: white;
   text-align: right;
 }
+
+#image1 img {
+  padding-left: 230px;
+}
+
 .schedule-date {
   color: black;
   text-align: right;
